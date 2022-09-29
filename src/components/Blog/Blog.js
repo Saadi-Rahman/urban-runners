@@ -17,6 +17,12 @@ const Blog = () => {
             <br /><br /><br /><br />
             <h3>Difference Between props and state.</h3>
             <img src={pic} alt="" />
+
+            <br /><br /><br /><br />
+            <h3>What are the uses of useEffect() other than data loading?</h3>
+            <p>6 use cases of the useEffect ReactJS hook. <br /><br />
+            
+            </p>
         </div>
     );
 };
