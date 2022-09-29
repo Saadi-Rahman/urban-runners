@@ -1,7 +1,7 @@
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import userImage from '../../images/user.png';
-import React from 'react';
+import React, { useState } from 'react';
 import './Sidebar.css';
 
 const Sidebar = (props) => {
@@ -11,6 +11,14 @@ const Sidebar = (props) => {
     for(const workout of sidebar){
         total = total + workout.time;
     }
+
+    // const [breakTime, setBreakTime] = useState('');
+    const [breakTime, setBreakTime] = useState('');
+    const handleBreakTime = (event)=>{
+        const newBreak = event.target.innerText;
+        setBreakTime(newBreak)
+        console.log(newBreak)
+        }
 
     return (
         <div className='sidebar'>
@@ -39,27 +47,27 @@ const Sidebar = (props) => {
             <h2>Add A Break</h2>
 
             <div className='btn-container'>
-                <button className='btn-break'><p>1m</p></button>
-                <button className='btn-break'><p>2m</p></button>
-                <button className='btn-break'><p>3m</p></button>
-                <button className='btn-break'><p>5m</p></button>
-                <button className='btn-break'><p>8m</p></button>
+                <button onClick = {(event)=>handleBreakTime(event)} className='btn-break'><p>1m</p></button>
+                <button onClick = {(event)=>handleBreakTime(event)} className='btn-break'><p>2m</p></button>
+                <button onClick = {(event)=>handleBreakTime(event)} className='btn-break'><p>3m</p></button>
+                <button onClick = {(event)=>handleBreakTime(event)} className='btn-break'><p>5m</p></button>
+                <button onClick = {(event)=>handleBreakTime(event)} className='btn-break'><p>8m</p></button>
             </div>
 
             <h2>Workout Details</h2>
+            <p>Selected Workouts: {sidebar.length}</p>
 
             <div className='common-class'>
                 <h3>Workout time: {total} minutes</h3>
             </div>
 
             <div className='common-class'>
-                <h3>Break time</h3>
+                <h3>Break time: {breakTime}</h3>
             </div>
 
             <button className='btn-completed'>
                 <p>Activity Completed</p>
             </button>
-            <p>Selected Items: {sidebar.length}</p>
         </div>
     );
 };
