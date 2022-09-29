@@ -1,7 +1,8 @@
 .workout {
-    width: 300px;
+    width: 280px;
     height: 450px;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(22, 78, 99, 0.19);
     padding: 20px;
     border-radius: 15px;
     position: relative;
@@ -26,8 +27,8 @@
 }
 
 .btn-workout {
-    width: 300px;
-    background-color: rgb(0, 145, 164);
+    width: 280px;
+    background-color: rgb(21 94 117);
     color: white;
     font-size: large;
     font-weight: 500;
@@ -36,6 +37,10 @@
     position: absolute;
     bottom: 0;
     margin-bottom: 20px;
+}
+
+.btn-workout:hover {
+    background-color: rgb(22 78 99);;
 }
 
 .btn-workout p {

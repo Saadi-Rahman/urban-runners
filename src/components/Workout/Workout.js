@@ -2,7 +2,9 @@ import React from 'react';
 import './Workout.css';
 
 const Workout = (props) => {
-    const {name, img, details, age, time} = props.workout;
+    const {workout, handleAddToSidebar} = props;
+    const {name, img, details, age, time} = workout;
+
     return (
         <div className='workout'>
             <img src={img} alt="" />
@@ -10,7 +12,8 @@ const Workout = (props) => {
             <p className='details'>{details}</p>
             <p className='common'>For Age: <span>{age}</span></p>
             <p className='common'>Time required: <span>{time}</span></p>
-            <button className='btn-workout'>
+
+            <button onClick={() => handleAddToSidebar(workout)} className='btn-workout'>
                 <p>Add to list</p>
             </button>
         </div>
