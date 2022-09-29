@@ -1,0 +1,11 @@
+.home-pg {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.workouts-container {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

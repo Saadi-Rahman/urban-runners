@@ -1,0 +1,74 @@
+[
+  {
+    "id": "w123",
+    "img": "./images/1.jpg",
+    "name": "Plyo Pushups",
+    "details": "Plyo pushups can help burn fat and build muscle. Many athletes perform them to help improve their athletic performance by building strength, endurance, and speed.",
+    "age": "10-45",
+    "time": "5m"
+  },
+  {
+    "id": "w456",
+    "img": "./images/2.jpg",
+    "name": "Pistol Squat",
+    "details": "On a difficulty scale of 1 to 10, the pistol squat is a solid 11. This single-leg exercise demands serious strength, mobility, and control, and if you can’t manage a single rep, well, you’re in good company.",
+    "age": "15-40",
+    "time": "5m"
+  },
+  {
+    "id": "w789",
+    "img": "./images/3.jpg",
+    "name": "Abs Workout",
+    "details": "A Beginner Abs Workout Perfect for Runners New to Strength Training. Most of us make running a priority because that’s our thing. But strength training is also necessary to improve your performance.",
+    "age": "25-45",
+    "time": "5m"
+  },
+  {
+    "id": "w012",
+    "img": "./images/4.jpg",
+    "name": "Treadmill",
+    "details": "Try a treadmill-specific workout. You can control pace, distance, and incline with absolute precision on the treadmill. This control allows you to do workouts that may otherwise not be possible for you.",
+    "age": "20-60",
+    "time": "20m"
+  },
+  {
+    "id": "w345",
+    "img": "./images/5.jpg",
+    "name": "Staircase Workout",
+    "details": "Climbing the stairs is one of the best exercises you can do to tone your lower body muscles, including your glutes, quads and calves, (but without the impact usually associated with running, or sprinting).",
+    "age": "20-40",
+    "time": "5m"
+  },
+  {
+    "id": "w678",
+    "img": "./images/6.jpg",
+    "name": "Slow Jogging",
+    "details": "Slow jogging capitalizes on the concept of “going slow to go fast,” meaning that we can run faster by slowing down some of our training.",
+    "age": "30-70",
+    "time": "30m"
+  },
+  {
+    "id": "w901",
+    "img": "./images/7.jpg",
+    "name": "Speed work",
+    "details": "Speed workouts are a staple in many training plans and for a good reason. Whether you are training for a fast 5K or want to complete a marathon, speed work is essential for becoming a faster and stronger runner.",
+    "age": "15-40",
+    "time": "10m"
+  },
+  {
+    "id": "w234",
+    "img": "./images/8.jpg",
+    "name": "Track Workout",
+    "details": "Whether you want to get faster or improve your overall fitness level, track workouts are one of the most effective ways to accomplish your goals. If you’re new to the track, you can try 100-, 200-, or 400-meter repeats.",
+    "age": "15-40",
+    "time": "20m"
+  },
+  {
+    "id": "w567",
+    "img": "./images/9.jpg",
+    "name": "Marathon Workout",
+    "details": "Training for the marathon involves adapting your body to the rigours and demands of 26.2 miles of running. To get it right,you need to increase your cardiovascular fitness as well as your ability to manage energy during the race.",
+    "age": "25-45",
+    "time": "30m"
+  }
+]
