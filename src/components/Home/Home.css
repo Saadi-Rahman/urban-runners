@@ -3,8 +3,27 @@
     grid-template-columns: 4fr 2fr;
 }
 
-.workouts-container {
+.main-section {
     margin: 50px;
+}
+
+.page-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.page-title img {
+    width: 100px;
+}
+
+.page-title h1 {
+    color: #164e63;
+    margin: 0;
+    padding: 0;
+}
+
+.workouts-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
