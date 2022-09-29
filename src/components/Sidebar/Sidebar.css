@@ -1,0 +1,87 @@
+.sidebar {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+}
+
+.user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.user img {
+    width: 80px;
+    padding: 10px;
+}
+
+.user h2, p{
+    margin: 0;
+}
+
+.user-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+    background-color: #f3f6ff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.user-info h1 {
+    margin: 0;
+}
+
+.btn-container{
+    background-color: #f3f6ff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.common-class{
+    background-color: #f3f6ff;
+    margin: 15px 0;
+    padding: 1px 20px;
+    border-radius: 10px;
+}
+
+.btn-break {
+    padding: 15px;
+    font-size: medium;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.btn-break:hover {
+    background-color: rgb(14 116 144);
+    color: white;
+}
+
+.btn-completed {
+    width: 100%;
+    background-color: rgb(21 94 117);
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.btn-completed:hover {
+    background-color: rgb(22 78 99);
+}
+
+.btn-completed p {
+    margin: 15px auto;
+    font-weight: 500;
+}
