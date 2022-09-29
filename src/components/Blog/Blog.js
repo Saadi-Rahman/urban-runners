@@ -21,7 +21,18 @@ const Blog = () => {
             <br /><br /><br /><br />
             <h3>What are the uses of useEffect() other than data loading?</h3>
             <p>6 use cases of the useEffect ReactJS hook. <br /><br />
-            
+            Whenever we need to make use of side effects in our application, useEffect is the way to go. This hook doesn't present many complications, except for non-primitive data types, due to how JavaScript handles them. <br /><br />
+
+            According to the official documentation, effects run after every completed render, but you can choose to fire them only when certain values have changed. This hook uses an array of "dependencies": variables or states that useEffect listen to for changes. When their values change, the main body of the useEffect hook is executed. <br /><br />
+
+            The return statement of this hook is used to clean methods that are already running, such as timers. The first time this hook is called, its main body is the one that is going to be evaluated first. All other subsequent times the hook is called, the return statement will be evaluated first, and, after that, the hook's main body. This behaviour is especially useful for cleaning code that is already running before run it again, which enable us to prevent memory leaks. <br /><br />
+            <h4>useEffect use cases are the following</h4>
+            1. Running once on mount: fetch API data <br />
+            2. Running on state change: validating input field <br />
+            3. Running on state change: live filtering <br />
+            4. Running on state change: trigger animation on new array value <br />
+            5. Running on props change: update paragraph list on fetched API data update <br />
+            6. Running on props change: updating fetched API data to get BTC updated price
             </p>
         </div>
     );
