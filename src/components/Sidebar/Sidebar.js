@@ -7,6 +7,11 @@ import './Sidebar.css';
 const Sidebar = (props) => {
     const {sidebar} = props;
 
+    let total = 0;
+    for(const workout of sidebar){
+        total = total + workout.time;
+    }
+
     return (
         <div className='sidebar'>
             <div className='user'>
@@ -44,7 +49,7 @@ const Sidebar = (props) => {
             <h2>Workout Details</h2>
 
             <div className='common-class'>
-                <h3>Workout time</h3>
+                <h3>Workout time: {total} minutes</h3>
             </div>
 
             <div className='common-class'>

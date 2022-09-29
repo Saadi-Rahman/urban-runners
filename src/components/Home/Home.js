@@ -15,7 +15,7 @@ const Home = () => {
     }, []);
 
     const handleAddToSidebar = (workout) =>{
-        console.log(workout);
+        // console.log(workout);
         const newSidebar = [...sidebar, workout];
         setSidebar(newSidebar);
     }

@@ -11,7 +11,7 @@ const Workout = (props) => {
             <h3>{name}</h3>
             <p className='details'>{details}</p>
             <p className='common'>For Age: <span>{age}</span></p>
-            <p className='common'>Time required: <span>{time}</span></p>
+            <p className='common'>Time required: <span>{time} minutes</span></p>
 
             <button onClick={() => handleAddToSidebar(workout)} className='btn-workout'>
                 <p>Add to list</p>
