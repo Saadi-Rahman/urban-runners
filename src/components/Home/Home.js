@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../../images/runners.png'
+import Blog from '../Blog/Blog';
 import Sidebar from '../Sidebar/Sidebar';
 import Workout from '../Workout/Workout';
 import './Home.css';
@@ -37,6 +38,11 @@ const Home = () => {
                             handleAddToSidebar={handleAddToSidebar}
                             ></Workout>)
                     }
+                </div>
+
+                <div className='blog-section'>
+                    <h1>Blog posts</h1>
+                    <Blog></Blog>
                 </div>
             </div>
 

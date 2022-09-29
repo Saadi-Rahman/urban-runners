@@ -30,6 +30,10 @@
     gap: 20px;
 }
 
+.blog-section {
+    margin: 50px auto;
+}
+
 .sidebar-section {
     background-color: white;
 }
